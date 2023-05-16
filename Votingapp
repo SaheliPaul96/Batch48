@@ -1,0 +1,11 @@
+Observation
+1) kubectl apply -f .
+After running the above command below pods are created.
+[root@ip-172-31-31-161 k8s-specifications]# kubectl get po
+NAME                      READY   STATUS    RESTARTS   AGE
+db-b54cd94f4-bnmd5        1/1     Running   0          70s
+redis-868d64d78-ppvgw     1/1     Running   0          70s
+result-5d57b59f4b-qpwvx   1/1     Running   0          70s
+vote-94849dc97-pbt2x      1/1     Running   0          70s
+worker-dd46d7584-w2lvh    1/1     Running   0          70s
+2)
